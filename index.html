@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Bootstrap</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .secao-destaque {
+            background: url(img/bg.png) no-repeat;
+            background-size: cover; /* tirou a faixa cinza, pesquisar! */
+        }
+        .bg-footer {
+            background: url(img/bg-footer.png) no-repeat center bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="secao-destaque text-white text-center text-lg-right bg-dark pb-5">
+        <!--inicio da barra do header -->
+        <div class="container-fluid">
+                
+                <header class="row pt-2 pb-2">
+                    <div class="col-12 col-lg-6">
+                        <h1><img src="img/logo.png" alt="Logo"></h1>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <nav>
+                            <ul class="nav justify-content-end">
+                                <li class="list-item"> <a class="nav-link active text-white" href="#">Diferenciais</a> </li>
+                                <li class="list-item"><a class="nav-link active text-white" href="#">Vantagens</a> </li>
+                                <li class="list-item"><a class="nav-link active text-white" href="#">Inscreva-se</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                
+        </div>
+
+        <!--inicio da sessão de destaque-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="pt-5 pb-3">Tá afim de entregar os trabalhos no prazo  ter controle financeiro?</h2>
+                    <p class="pb-3">O kit do freelancer te ajuda a se manter organizado e não atrasar seus trabalhos além de te ajudar no controle financeiro.</p>
+                    <div class="grupo-botoes pb-5">
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                        <a href="#" class="btn btn-outline-light">Conhecer mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sessao diferenciais-->
+    <section class="diferenciais container">
+        <div class="row pt-5 pb-5">
+            <div class="col-12 col-lg-4 text-center pt-5 pb-5">
+                <img class="img-fluid" src="img/icon1.png" alt="primeiro icone">
+                <h5 class="pt-4">Titulo Card</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center pt-5 pb-5">
+                <img class="img-fluid" src="img/icon2.png" alt="primeiro icone">
+                <h5 class="pt-4">Titulo Card</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center pt-5 pb-1">
+                <img class="img-fluid" src="img/icon3.png" alt="primeiro icone">
+                <h5 class="pt-4">Titulo Card</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="vantagens bg-light pt-5 pb-5">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-7 align-self-center pt-1 pb-5 pb-lg-0">
+                    <img class="img-fluid" src="img/image1.png">
+                </div>
+                <div class="col-12 col-lg-5 align-self-center">
+                    <h3>Receba agora no seu e-mail</h3>
+                    <p class="lead">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing. </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-footer pt-5 pb-5">
+       <section class="inscreva-se container pt-5 pb-5">
+           <div class="row justify-content-center pb-5">
+               <div class="col-12 col-lg-5 text-center">
+                   <h3>Receba por e-mail</h3>
+                    <p>Tá afim de entregar os trabalhos no prazo  ter controle financeiro?</p>
+                    <form action="" class="row">
+                        <div class="col-8 col-lg-9">
+                            <input type="text" class="form-control" placeholder="Envie seu e-mail">
+                        </div>
+                        <div class="col-3">
+                            <input type="submit" value="Receber" class="btn btn-success form-control" >
+                        </div>
+                    </form>
+                </div>
+            </div>
+       </section>
+
+       <footer>
+           <div class="container ">
+               <div class="row text-center">
+                   <div class="col-12">
+                       <img src="img/logo-footer.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </footer>
+    </div>
+</body>
+</html>
